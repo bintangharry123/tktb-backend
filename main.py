@@ -11,7 +11,7 @@ class ImageInput(BaseModel):
 
 app = FastAPI()
 
-CLASSES = ['actinic keratosis', 'basal cell carcinoma', 'dermatofibroma', 'melanoma', 'nevus', 'pigmented benign keratosis', 'seborrheic keratosis', 'squamous cell carcinoma', 'vascular lesion' ]
+CLASSES = ['basal cell carcinoma', 'nevus', 'melanoma', 'pigmented benign keratosis' ]
 
 file_type = [
     'image/png',
